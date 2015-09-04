@@ -7,3 +7,10 @@ $(function(){
     $(mr_input).focus(function(){	 $(this).val()==$(this).data('stext')  ?   $(this).val(''): "0";	               	});
     $(mr_input).blur(function() {    $(this).val().length<=0               ?   $(this).val($(this).data('stext')): "0"; });
 });
+
+
+
+$(".popup").fancybox({
+    'padding' : 0,
+    'closeBtn' : false
+});
