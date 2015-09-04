@@ -50,6 +50,73 @@ html {
 .b01 {
 	height: 700px;
 	background: url("../img/b01_bg.jpg") top center no-repeat;
+
+	.top {
+		padding-top: 35px;
+		margin-bottom: 70px;
+	}
+
+	.logo {
+		float: left;
+		width: 480px;
+		height: 52px;
+		background: url("../img/logo.png") 0 0 no-repeat;
+	}
+
+	.worktime {
+		float: left;
+		width: 300px;
+		color: #565048;
+		font-size: 14px;
+		line-height: 14px;
+		font-family: @font-gotham-light;
+	}
+
+	.contact {
+		width: 200px;
+		float: right;
+		text-align: right;
+	}
+
+	.tel {
+		color: #3f3829;
+		font-size: 18px;
+		line-height: 18px;
+		font-family: @font-gotham-black;
+	}
+
+	.callback {
+		color: #8c7555;
+		font-size: 16px;
+		line-height: 20px;
+		text-decoration: none;
+		border-bottom: 1px dotted #8c7555;
+
+		&:hover {
+			border-color: transparent;
+		}
+	}
+
+	h1 {
+		margin: 0;
+		color: #bfa97f;
+	}
+
+	.text1 {
+		color: #3f3829;
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 15px;
+		font-family: @font-lora;
+	}
+
+	.text2 {
+		color: #3f3829;
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 70px;
+		font-family: @font-gotham-light;
+	}
 }
 
 
@@ -561,6 +628,17 @@ html {
 	&:hover {
 		background: #9b855a;
 		border-color: #9b855a;
+	}
+}
+
+.btn-dark {
+	color: #bfa97f;
+	background: #181409;
+	border-color: #181409;
+
+	&:hover {
+		background: #393017;
+		border-color: #393017;
 	}
 }
 
