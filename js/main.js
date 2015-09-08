@@ -11,6 +11,10 @@ $(function(){
 
 
 $(".popup").fancybox({
-    'padding' : 0,
-    'closeBtn' : false
+    'padding' : 0
+});
+
+$(".politic").fancybox({
+    'maxWidth' : '70%',
+    'padding' : 15
 });
